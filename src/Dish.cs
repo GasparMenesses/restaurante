@@ -40,5 +40,6 @@ public class Program
     public static void Main()
     {
         Dish dish= new Dish("Hamburguesa", 850, false);
+        
     }
 }
