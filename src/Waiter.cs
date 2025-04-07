@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Security.Cryptography;
 
 namespace Ucu.Poo.Restaurant;
 
@@ -8,4 +9,25 @@ namespace Ucu.Poo.Restaurant;
 public class Waiter
 {
     private ArrayList assignedTables = new ArrayList();
+      waiter
+    public string Name { get; set; }
+    public void AssignTable(Table table)
+    {
+        assignedTables.Add(true);
+    }
+
+    public void TakeOrder(Table table, Dish dish)
+    {
+        if (assignedTables.Contains(table))
+        {
+            table.AddToOrder(dish);
+        }
+        else
+        {
+            Console.WriteLine("esta mesa no esta asignada al mozo");
+        }
+    }
 }
+
+}
+       main
