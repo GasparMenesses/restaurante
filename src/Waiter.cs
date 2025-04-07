@@ -9,6 +9,7 @@ namespace Ucu.Poo.Restaurant;
 public class Waiter
 {
     private ArrayList assignedTables = new ArrayList();
+      waiter
     public string Name { get; set; }
     public void AssignTable(Table table)
     {
@@ -27,3 +28,6 @@ public class Waiter
         }
     }
 }
+
+}
+       main

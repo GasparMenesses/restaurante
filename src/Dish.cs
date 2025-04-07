@@ -8,6 +8,7 @@ namespace Ucu.Poo.Restaurant;
 
 public class Dish
 {
+    dish
     public string name; 
     public double price;
     public bool isVegetarian;
@@ -42,4 +43,7 @@ public class Program
         Dish dish= new Dish("Hamburguesa", 850, false);
         
     }
+
+    
+    main
 }
